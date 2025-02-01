@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Face Recognition Attendance System</h1>
+    </header>
+
+    <main>
+        <div class="video-container">
+            <video id="video" autoplay></video>
+        </div>
+        <div id="attendance-status">
+            <h3>Attendance Status</h3>
+            <table id="attendance-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Attendance records will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <button id="stop-btn">Stop Attendance</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

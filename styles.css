@@ -1,0 +1,77 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+main {
+  padding: 20px;
+}
+
+.video-container {
+  display: inline-block;
+  border: 5px solid #333;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 640px;
+  height: 480px;
+  border: 2px solid #4CAF50;
+}
+
+#attendance-status {
+  margin-top: 20px;
+}
+
+table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
